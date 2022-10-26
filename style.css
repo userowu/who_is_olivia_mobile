@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Francois+One&family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Press+Start+2P&family=VT323&display=swap');
+@font-face {
+    font-family: 'Milky';
+    src: url('MilkyRegular.woff2') format('woff2'),
+        url('MilkyRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OMORI_GAME2';
+    src: url('OMORI_GAME2.woff2') format('woff2'),
+        url('OMORI_GAME2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  display:flex;
+  background-image: url("wallpaper_long.png");
+  background-size:cover;
+  font-family: 'Milky';
+  display: block;
+  margin: 8px;
+
+}
+
+p {
+  display:flex;
+  color:white;
+  line-height:20px;
+}
+
+h1 {
+  position:static;
+  background-color: white;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #953553;
+  padding: 15px;
+  font-size: 40px;
+  border-style: inset;
+  border-width: 5px;
+  border-color: gray;
+}
+
+h1:hover {
+  color:red;
+}
+
+h5 {
+  text-decoration-color:blue;
+  color:white;
+
+}
+
+#logo {
+  width:700px;
+  padding:15px;
+}
+
+#tabs {
+  text-align:center;
+  font-family: 'Milky';
+  text-decoration-style:none;
+  background-color: #ff2079;
+  color: white;
+  font-size: 19px;
+  padding: 15px;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+
+nav {
+  display:block;
+}
+
+u1 {
+  margin: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px
+  border-color: white;
+  min-width:900px;
+}
+
+li {
+  line-height: 19px;
+
+}
+
+.Container {
+  padding-top: 50px;
+  margin-top: 0px;
+
+  /** margin-left: 100px;
+  margin-top: 0px;
+  margin-right: 20px;
+  width: 55%; **/
+  box-sizing: border-box;
+
+}
+
+#page1 {
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 30px;
+  min-width:600px;
+}
+
+
+#girls {
+  display: inline-block;
+  margin:10px;
+  text-align:center;
+  width:450px;
+}
+
+#girlsmain {
+  display: inline-block;
+  margin:20px;
+  text-align:center;
+  width:800px;
+}
+
+#ls_text {
+  min-width:500px;
+  width:700px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Francois+One&family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Press+Start+2P&family=Special+Elite&family=VT323&display=swap');
+@font-face {
+    font-family: 'Milky';
+    src: url('MilkyRegular.woff2') format('woff2'),
+        url('MilkyRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OMORI_GAME2';
+    src: url('OMORI_GAME2.woff2') format('woff2'),
+        url('OMORI_GAME2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  background-image: url("background.png");
+  position:fixed;
+  background-size:cover;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: ease;
+}
+
+.hi {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom:130px;
+
+  padding-left:530px;
+  padding-right:580px;
+}
+
+.text {
+  color: #CBCBCB;
+  text-align:center;
+  font-family: 'Milky';
+  background-color: black;
+  font-style: italic;
+  letter-spacing: 4px;
+  font-size: 50px;
+  border-style: inset;
+  border-width: 4px;
+  border-color: gray;
+
+}
+
+a:hover {
+  font-family: 'Special Elite';
+  color:white;
+  font-size: 40px;
+  transform:scale(1.1);
+
+}
+
+.div1 {
+  padding-left: 125px;
+
+}
+
+.me3 {
+  
+}
