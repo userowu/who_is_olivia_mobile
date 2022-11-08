@@ -16,45 +16,92 @@
     font-style: normal;
     font-display: swap;
 }
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url("background3.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    position: fixed;
+  }
 
-body {
-  background-image: url("background3.png");
-  background-size:cover;
+
+  .div1 {
+    text-align:center;
+    margin-top:50px;
+    margin-left:600px;
+    margin-right:580px;
+    border-style: inset;
+    border-width: 5px;
+    border-color: purple;
+    box-sizing:border-box;
+  }
+
+  .me3 {
+    width:300px;
+
+  }
+
+  img {
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+  }
+  img:hover {
+    font-family: 'Special Elite';
+    color:white;
+    font-size: 40px;
+    transform:scale(1.05);
+
+  }
+  iframe:hover {
+    font-family: 'Special Elite';
+    color:white;
+    font-size: 40px;
+    transform:scale(1.05);
+
+    transform:skewX(20px);
+  }
 }
 
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url("background3.png");
+    background-size:contain;
+  }
 
-.div1 {
-  text-align:center;
-  margin-top:50px;
-  margin-left:600px;
-  margin-right:580px;
-  border-style: inset;
-  border-width: 5px;
-  border-color: purple;
-}
 
-.me3 {
-  width:300px;
+  .div1 {
+    text-align:center;
+    margin-top:50px;
+    margin-left:120px;
+    margin-right:580px;
 
-}
+  }
 
-img {
-  -webkit-transition-property: all;
-  -webkit-transition-duration: .3s;
-  -webkit-transition-timing-function: ease;
-}
-img:hover {
-  font-family: 'Special Elite';
-  color:white;
-  font-size: 40px;
-  transform:scale(1.05);
+  .me3 {
+    width:150px;
 
-}
-iframe:hover {
-  font-family: 'Special Elite';
-  color:white;
-  font-size: 40px;
-  transform:scale(1.05);
+  }
 
-  transform:skewX(20px);
+  img {
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+  }
+  img:hover {
+    font-family: 'Special Elite';
+    color:white;
+    font-size: 40px;
+    transform:scale(1.05);
+
+  }
+  iframe:hover {
+    font-family: 'Special Elite';
+    color:white;
+    font-size: 40px;
+    transform:scale(1.05);
+
+    transform:skewX(20px);
+  }
+
 }

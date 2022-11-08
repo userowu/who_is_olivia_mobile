@@ -17,55 +17,111 @@
     font-display: swap;
 }
 
-body {
-  background-image: url("background.png");
-  position:fixed;
-  background-size:cover;
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url("background.png");
+    position:fixed;
+    background-size:cover;
+    background-attachment:scroll;
 
+
+  }
+
+  a {
+      text-decoration: none;
+      cursor: pointer;
+      -webkit-transition-property: all;
+      -webkit-transition-duration: 2s;
+      -webkit-transition-timing-function: ease;
+  }
+
+  .hi {
+    padding-left:500px;
+    margin-top:200px;
+    text-align: center;
+
+  }
+
+  .text {
+    color: #CBCBCB;
+    text-align:center;
+    font-family: 'Milky';
+    background-color: black;
+    font-style: italic;
+    letter-spacing: 4px;
+    font-size: 50px;
+    border-style: inset;
+    border-width: 4px;
+    border-color: gray;
+
+  }
+
+  a:hover {
+    font-family: 'Special Elite';
+    color:white;
+    font-size: 40px;
+    transform:scale(1.1);
+
+  }
+
+  .div1 {
+    padding-left: 125px;
+
+  }
 }
 
+@media only screen and (max-width:768px) {
+  body {
+    background-image: url("background.png");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 
 
-a {
-    text-decoration: none;
-    cursor: pointer;
-    -webkit-transition-property: all;
-    -webkit-transition-duration: 2s;
-    -webkit-transition-timing-function: ease;
-}
+  }
 
-.hi {
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom:130px;
 
-  padding-left:530px;
-  padding-right:580px;
-}
 
-.text {
-  color: #CBCBCB;
-  text-align:center;
-  font-family: 'Milky';
-  background-color: black;
-  font-style: italic;
-  letter-spacing: 4px;
-  font-size: 50px;
-  border-style: inset;
-  border-width: 4px;
-  border-color: gray;
+  a {
+      text-decoration: none;
+      cursor: pointer;
+      -webkit-transition-property: all;
+      -webkit-transition-duration: 2s;
+      -webkit-transition-timing-function: ease;
+  }
 
-}
+  .hi {
+    position:relative;
+    margin-top:200px;
+    text-align: center;
 
-a:hover {
-  font-family: 'Special Elite';
-  color:white;
-  font-size: 40px;
-  transform:scale(1.1);
+  }
 
-}
+  .text {
+    color: #CBCBCB;
+    text-align:center;
+    font-family: 'Milky';
+    background-color: black;
+    font-style: italic;
+    letter-spacing: 4px;
+    font-size: 50px;
+    border-style: inset;
+    border-width: 4px;
+    border-color: gray;
 
-.div1 {
-  padding-left: 125px;
+  }
 
+  a:hover {
+    font-family: 'Special Elite';
+    color:white;
+    font-size: 40px;
+    transform:scale(1.1);
+
+  }
+
+  .div1 {
+    padding-left: 125px;
+
+  }
 }
